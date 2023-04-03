@@ -1,0 +1,17 @@
+{
+  "name": "events-loop",
+  "version": "1.0.0",
+  "description": "1. The Event loop allows for asynchronous programming by handling events and callbacks. It also allows for non-blocking asynchronous I/O operations. When an event is triggered, its associated callback function is added to the event queue, and the event loop processes the queue one event at a time, executing the associated callback function for each event.\r 2. \r a. Timers Phase: This phase is where callbacks scheduled by setTimeout(), setInterval() and setImmediate() whose time has expired, are executed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "joi": "^17.9.1",
+    "mongoose": "^7.0.3"
+  }
+}
